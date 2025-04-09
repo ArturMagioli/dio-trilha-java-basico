@@ -2,6 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import entities.Cliente;
 
+
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         // Obtendo os dados do cliente:

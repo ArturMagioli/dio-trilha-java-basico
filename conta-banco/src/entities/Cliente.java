@@ -1,5 +1,11 @@
 package entities;
-
+/**
+ * <h3>Client,java
+ * <p>Classe responsável no gerenciamento dos dados do cliente.
+ * @author Artur Magioli
+ * @version 1.0
+ * @since   08/04/2025
+ */
 public class Cliente {
     private String nome;
     private String agencia;
@@ -13,6 +19,11 @@ public class Cliente {
         this.saldo = saldo;
     }
 
+
+    /**
+     * @param void
+     * @return String de feedback
+     */
     public String feedbackCliente() {
         return "Olá " + nome 
         + ", obrigado por criar uma conta em nosso banco. "
